@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2b2ba86-44de-4fbc-9029-781f3fffc7c3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/string/Vowels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/string/ScoreOfParentheses.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckReport.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckReport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/string/CheckReport.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
               <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vowels.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/Vowels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#81#82#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +83,8 @@
         <option value="$PROJECT_DIR$/src/string/CountBinarySubstrings.java" />
         <option value="$PROJECT_DIR$/src/string/CustomSortString.java" />
         <option value="$PROJECT_DIR$/src/string/CheckReport.java" />
+        <option value="$PROJECT_DIR$/src/string/ReverseStr.java" />
+        <option value="$PROJECT_DIR$/src/string/Vowels.java" />
       </list>
     </option>
   </component>
@@ -81,9 +97,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="102" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="30" />
+    <option name="y" value="96" />
     <option name="width" value="1920" />
     <option name="height" value="868" />
   </component>
@@ -144,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckReport">
+  <component name="RunManager" selected="Application.Vowels">
     <configuration name="CheckReport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CheckReport" />
       <module name="code" />
@@ -167,10 +183,10 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CustomSortString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.CustomSortString" />
+    <configuration name="FindLUS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.FindLUS" />
       <module name="code" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
@@ -178,10 +194,21 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FindLUS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.FindLUS" />
+    <configuration name="ReverseStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReverseStr" />
       <module name="code" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Vowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Vowels" />
+      <module name="code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
@@ -231,17 +258,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CustomSortString" />
       <item itemvalue="Application.FindLUS" />
       <item itemvalue="Application.CountBinarySubstrings" />
       <item itemvalue="Application.CheckReport" />
+      <item itemvalue="Application.ReverseStr" />
+      <item itemvalue="Application.Vowels" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vowels" />
+        <item itemvalue="Application.ReverseStr" />
         <item itemvalue="Application.CheckReport" />
         <item itemvalue="Application.CountBinarySubstrings" />
         <item itemvalue="Application.FindLUS" />
-        <item itemvalue="Application.CustomSortString" />
       </list>
     </recent_temporary>
   </component>
@@ -256,15 +285,15 @@
       <option name="presentableId" value="Default" />
       <updated>1532334041363</updated>
       <workItem from="1532334044467" duration="2010000" />
-      <workItem from="1532400340041" duration="17204000" />
+      <workItem from="1532400340041" duration="21034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19214000" />
+    <option name="totallyTimeSpent" value="23044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="102" width="1920" height="868" extended-state="0" />
+    <frame x="30" y="96" width="1920" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -288,7 +317,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,7 +335,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -377,10 +406,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/ReverseStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/string/CheckReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/Vowels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
