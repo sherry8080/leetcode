@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2b2ba86-44de-4fbc-9029-781f3fffc7c3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string/Vowels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/Vowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/Vowels.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,10 +51,9 @@
       <file leaf-file-name="Vowels.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string/Vowels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#81#82#0" expanded="true" />
                 <element signature="e#116#117#0" expanded="true" />
               </folding>
@@ -97,7 +95,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="30" />
     <option name="y" value="96" />
     <option name="width" value="1920" />
@@ -285,12 +283,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532334041363</updated>
       <workItem from="1532334044467" duration="2010000" />
-      <workItem from="1532400340041" duration="21034000" />
+      <workItem from="1532400340041" duration="21228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23044000" />
+    <option name="totallyTimeSpent" value="23238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="96" width="1920" height="868" extended-state="0" />
@@ -426,10 +424,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/string/Vowels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#81#82#0" expanded="true" />
             <element signature="e#116#117#0" expanded="true" />
           </folding>
