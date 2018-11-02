@@ -1,0 +1,7 @@
+
+usquid:S00117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÂÖøÿÿÿÿ8¶˜ê±Ì,
+V
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ÛïÎ8¶˜ê±Ì,
+Usquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8¶˜ê±Ì,
+}squid:S1149$"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8¶˜ê±Ì,
+usquid:S00117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÂÖøÿÿÿÿ8¶˜ê±Ì,
