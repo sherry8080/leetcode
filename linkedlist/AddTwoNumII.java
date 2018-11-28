@@ -1,12 +1,30 @@
 package linkedlist;
 
-public class AddTwoNum {
-
+public class AddTwoNumII {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode prev = null;
+        ListNode curr = l1;
+        while(curr != null){
+            ListNode node = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = node;
+        }
+        l1 = prev;
+
+        prev = null;
+        curr = l2;
+        while(curr != null){
+            ListNode node = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = node;
+        }
+        l2 = prev;
 
         int carry = 0;
         ListNode ans = new ListNode(0);
-        ListNode curr = ans;
+        curr = ans;
         int sum = 0;
         int x = 0;
         int y = 0;
@@ -39,7 +57,6 @@ public class AddTwoNum {
         if(carry > 0){
             curr.next = new ListNode(1);
         }
-        return ans.next;
+        return ans;
     }
-
 }

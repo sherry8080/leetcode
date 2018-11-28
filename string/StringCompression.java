@@ -53,23 +53,26 @@ public class StringCompression {
     }
 
     public static int compress(char[] chars) {
-        if(chars.length == 0) return 0;
 
-        int mark = 0;
-        int write = 0;
-        for(int i = 0; i < chars.length; i++){
-            //若出现不同字母或到达字符串末尾
-            if(i + 1 == chars.length || chars[i] != chars[i+1]){
-                chars[write] = chars[mark];
-                write++;
-                if(mark < i){
-                    //遍历字符出现次数，转化为字符数组（可能出现大于一位的数字）
-                    for(char a : (""+(i-mark+1)).toCharArray())
-                        chars[write++] = a;
+        int count = 0;
+        int index = 0;
+        for (int i = 0; i <= chars.length; i++) {
+            if (i == 0 || i < chars.length && chars[i] == chars[i - 1]) {
+                count++;
+            }
+            else {
+                chars[index] = chars[i - 1];
+                index++;
+                if (count != 1) {
+                    char[] countArr = String.valueOf(count).toCharArray();
+                    for (int j = 0; j < countArr.length; j++) {
+                        chars[index] = countArr[j];
+                        index++;
+                    }
                 }
-                mark = i + 1;
+                count = 1;
             }
         }
-        return write;
+        return index;
     }
 }
